@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "MyIdentity"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "MyIdentity."
   spec.description  = <<-DESC
   My Identity Description
