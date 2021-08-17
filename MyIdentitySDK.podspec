@@ -16,12 +16,12 @@ Pod::Spec.new do |spec|
   spec.dependency "Alamofire", "5.4.1"
   spec.dependency "SwiftProtobuf", "1.15.0"
   
-  s.pod_target_xcconfig = { 
-      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-      'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES'
-    }
+  spec.pod_target_xcconfig = { 
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+    'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES'
+  }
 
-    s.user_target_xcconfig = { 
-      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' 
-    }
+  spec.user_target_xcconfig = { 
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
 end
