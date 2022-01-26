@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "MyIdentity"
-  spec.version      = "0.2.3"
+  spec.version      = "0.2.4"
   spec.summary      = "MyIdentity."
   spec.description  = <<-DESC
   My Identity Description
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'MyIdentitySDK.xcframework'
   spec.dependency "AppAuth", "1.4.0"
   spec.dependency "PPBlinkID", "5.9.0"
-  spec.dependency "Alamofire", "5.4.1"
+  spec.dependency "Alamofire", "5.5.0"
   spec.dependency "SwiftProtobuf", "1.15.0"
   
   spec.pod_target_xcconfig = { 
