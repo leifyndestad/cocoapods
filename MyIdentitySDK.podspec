@@ -9,8 +9,8 @@ Pod::Spec.new do |spec|
   spec.license      = "Tietoevry LICENSE"
   spec.author       = { "Leif Yndestad" => "leif.yndestad@tietoevry.com" }
   spec.platform     = :ios, "13.0"
-  spec.source       = { :http => "https://github.com/leifyndestad/my-identity/raw/main/MyIdentitySDK.xcframework.zip" }
-  spec.vendored_frameworks = 'MyIdentitySDK.xcframework'
+  spec.source       = { :http => "https://github.com/leifyndestad/my-identity/raw/main/MyIdentitySDK.framework.zip" }
+  spec.vendored_frameworks = 'MyIdentitySDK.framework'
   spec.dependency "AppAuth", "1.4.0"
   spec.dependency "PPBlinkID", "5.9.0"
   spec.dependency "Alamofire", "5.5.0"
